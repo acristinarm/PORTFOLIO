@@ -1,0 +1,86 @@
+body {
+    background-image: url("imagens/background_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif !important;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#sombra{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(244, 213, 170, 0.15);
+}
+
+header{
+    background-image: url("imagens/wallpaper_.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.navbar a{
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 20px !important;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.about_me{
+    height: 400px;
+}
+
+.about_me img{
+    width: 300px;
+    height: 350px;
+}
+
+.separacao{
+    margin-left: 160px;
+}
+
+.linha_separadora{
+    margin-left: 2px;
+    width: 2px;
+    height: 400px;
+    background-color: black;
+}
+
+.linha_separadora_portfolio{
+    margin-left: 2px;
+    width: 2px;
+    height: 150px;
+    background-color: black;
+}
+
+.caixa{
+    font-size: 20px;
+    background-color: rgb(251, 250, 248);
+}
+
+
+/*TESTE*/
+/* style.css */
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-bar .skill-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar .progress {
+    height: 15px;
+}
+
+.skill-bar .progress-bar {
+    transition: width 1s;
+}
