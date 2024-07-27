@@ -7,9 +7,10 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    color: #333333 !important;
 }
 
-#sombra{
+#sobrepor{
     position: absolute;
     width: 100%;
     background-color: rgba(244, 213, 170, 0.15);
@@ -23,13 +24,13 @@ header{
 
 .navbar a{
     text-decoration: none !important;
-    color: black !important;
+    color: #333333 !important;
     font-size: 20px !important;
     margin-right: 20px;
 }
 
 .navbar a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #333333;
 }
 
 
@@ -50,14 +51,14 @@ header{
     margin-left: 2px;
     width: 2px;
     height: 400px;
-    background-color: black;
+    background-color: #333333;
 }
 
 .linha_separadora_portfolio{
-    margin-left: 2px;
+    margin-left: 80px;
     width: 2px;
     height: 150px;
-    background-color: black;
+    background-color: #333333;
 }
 
 .caixa{
@@ -65,9 +66,6 @@ header{
     background-color: rgb(251, 250, 248);
 }
 
-
-/*TESTE*/
-/* style.css */
 .skill-bar {
     margin-bottom: 20px;
 }
@@ -83,4 +81,20 @@ header{
 
 .skill-bar .progress-bar {
     transition: width 1s;
+}
+
+a{
+    color: #333333 !important;
+}
+
+.sombreado{
+    box-shadow: 0px 0px 10px 3px rgb(129, 114, 71);
+}
+
+.sombreado p{text-align: justify !important;}
+
+#portfolio img{
+    width: 300px;
+    max-height: 180px;
+    margin-left: 80px;
 }
