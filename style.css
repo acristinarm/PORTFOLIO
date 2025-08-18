@@ -48,13 +48,12 @@ body {
     margin-right: 20px;
 }
 
-
-.linha_separadora_portfolio{
-    margin-left: 2px;
-    width: 2px;
-    height: 150px;
-    background-color: #333333;
+#portfolio .container{
+    background-color: white;
+    padding-top: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
+
 
 #photos .carousel-item img {
     height: 200px;
@@ -124,5 +123,4 @@ a{
         width: 60% !important;
     }
 }
-
 
